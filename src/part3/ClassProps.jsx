@@ -2,9 +2,7 @@ import React,{Component} from "react";
 
 class LearnProps extends Component{
     render(){
-        console.log(this.props.empName)
-        console.warn(this.props.name)
-        console.warn(this.props.email)
+        console.warn(this.props)
         return(
             <>
              <h1>Hello Here Props in class Component</h1>
