@@ -10,7 +10,8 @@ import './App.css';
 // import LearnProps from './part3/LearnProps';
 // import ClassProps from './part3/ClassProps'
 
-import GetInput from './practice/GetInput';
+// import GetInput from './practice/GetInput';
+import HideShow from './practice/HideShow';
 
 function HeyBaby(props){
   return(
@@ -104,7 +105,9 @@ function updateAll(){
       
       <br />
 
-      <GetInput/>
+      {/* <GetInput/>  */}
+
+      <HideShow name = 'Rahul Soni' contactNo = "6376609618" email = "soni9761@gmail.com"/>
       
 
     </div>
