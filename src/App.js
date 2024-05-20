@@ -8,8 +8,9 @@ import './App.css';
 // import Whystate from './part3/Whystate';
 // import StateClass from './classComp/StateClass';
 // import LearnProps from './part3/LearnProps';
+// import ClassProps from './part3/ClassProps'
 
-import ClassProps from './part3/ClassProps'
+import GetInput from './practice/GetInput';
 
 function HeyBaby(props){
   return(
@@ -66,13 +67,21 @@ function updateAll(){
 
       {/* <User/>
       <Test/>
+      
+      
       <HeyBaby name = {babyName}/>
       <UserName/> */}
+        <br />
       {/* <EventLearn/> */}
+      <br />
       {/* <Whystate/> */}
+      <br />
       {/* <StatesInReact/> */}
+      <br />
       {/* <StateClass/> */}
 
+
+      <br />
 
       {/* <LearnProps 
       name = {name}  
@@ -87,9 +96,15 @@ function updateAll(){
       
       <LearnProps data = {student}  name = {'Sanjay'}  email ='sanj0932@gmail.com'  salary ='80k Rs' other = {{address:"Shastri-Nagar" ,country : "India" }}/> */}
 
+      <br />
+
+      {/* <h1>Hello Here Props in class Component</h1>
       <ClassProps empName = 'TCS' name = 'Dristi Sharma' email ='sharmaDristi@gmail.com'/>
+      <ClassProps empName = "Microsoft" name  = "Rahul Soni" email = 'soni86541@gmail.com' /> */}
       
-      
+      <br />
+
+      <GetInput/>
       
 
     </div>
