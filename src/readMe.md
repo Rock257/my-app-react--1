@@ -52,7 +52,7 @@ types of component (total - 6 types mostly used are 2 types component )
 5. controlled comp
 6. uncontrolled comp
 
-<!-- Props -->
+<!-- Props => use to pass the data to the component  -->
 
 Components can be passed as props, which stands for properties.
 Props are like function arguments, and you send them into the component as attributes.
@@ -107,3 +107,8 @@ we are destructuring the returned values from useState
 The first value, color, is our current state.
 
 The second value, setColor, is the function that is used to update our state.
+
+<!-- Que : can we used state outside of component --> 
+<!-- ans : yes we can use  but not authentic by react-->
+<!-- Que : state are public or private --> 
+<!-- ans : state are public -->
