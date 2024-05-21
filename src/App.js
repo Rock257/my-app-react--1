@@ -11,7 +11,8 @@ import './App.css';
 // import ClassProps from './part3/ClassProps'
 
 // import GetInput from './practice/GetInput';
-import HideShow from './practice/HideShow';
+// import HideShow from './practice/HideShow';
+import Toggle from  './practice/Toggle'
 
 function HeyBaby(props){
   return(
@@ -107,7 +108,8 @@ function updateAll(){
 
       {/* <GetInput/>  */}
 
-      <HideShow name = 'Rahul Soni' contactNo = "6376609618" email = "soni9761@gmail.com"/>
+      {/* <HideShow name = 'Rahul Soni' contactNo = "6376609618" email = "soni9761@gmail.com"/> */}
+      <Toggle/>
       
 
     </div>
