@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import ConditionalRendering from './part3/ConditionalRendering';
 // import User from './userFile/User';
 // import { Test } from './userFile/Test';
 // import UserName from './classComp/UserClass';
@@ -12,7 +13,9 @@ import './App.css';
 
 // import GetInput from './practice/GetInput';
 // import HideShow from './practice/HideShow';
-import Toggle from  './practice/Toggle'
+// import Toggle from  './practice/Toggle'
+// import BasicForm from './practice/BasicForm';
+// import Test from './practice/Test';
 
 function HeyBaby(props){
   return(
@@ -63,8 +66,7 @@ function updateAll(){
   return (
     <div className="App">
       <h1>Hello React </h1>
-      
-      {/* sending object as props  */}
+      {/* sending object as props */}
       {/* <User name = "Rahul" userDet = {userDetails}/> */}
 
       {/* <User/>
@@ -109,8 +111,11 @@ function updateAll(){
       {/* <GetInput/>  */}
 
       {/* <HideShow name = 'Rahul Soni' contactNo = "6376609618" email = "soni9761@gmail.com"/> */}
-      <Toggle/>
+      {/* <Toggle/> */}
+      {/* <BasicForm/> */}
+      <ConditionalRendering/>
       
+      {/* <Test></Test> */}
 
     </div>
   );

@@ -25,6 +25,7 @@ function Toggle(){
         }
         {/* <button onClick={()=>setData(false)} onDoubleClick={()=>setData(true)}>Hide & Sho</button> */}
         <button onClick={()=>setData(!data)}>Toggle</button>
+        {/* to toggle use opp. state of the current state in setData  */}
         </>
     )
 }
