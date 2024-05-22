@@ -12,8 +12,7 @@ export default function ConditionalRendering() {
             : <h2>Welcome Guest</h2>
         }
 
-        <button style={{fontSize : "1.5rem", fontWeight: "bolder"} }  onClick={()=>setLogged(!logged)}>Sign In & Sign Out</button>
-        
+        <button style={{fontSize : "1.5rem", fontWeight: "bolder", borderRadius: "5rem"} }  onClick={()=>setLogged(!logged)}>Sign In & Sign Out</button>
 
     </div>
   )
