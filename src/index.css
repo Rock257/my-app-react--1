@@ -17,3 +17,12 @@ code {
   height: 2rem;
   width: 4rem;
 }
+
+button{
+  font-size: 2rem;
+  font-weight: bolder;
+  background-color: transparent;
+  border-radius: 2px solid black;
+  border-radius: 10%;
+
+}
